@@ -25,5 +25,7 @@ jobs:
         pip install requests
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run ETH.py
+      env:
+        header_secert: ${{ secrets.HEADERS}}
       run: |
         python3 ETH.py
