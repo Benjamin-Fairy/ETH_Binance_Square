@@ -1,4 +1,4 @@
-import time
+import os
 
 import requests
 import  json
@@ -69,4 +69,5 @@ def get_new_data():
 if __name__=="__main__":
 
     get_new_data()
+
 
