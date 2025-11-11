@@ -32,7 +32,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run ETH.py
       env:
-        header_secert: ${{ secrets.HEADERS }}
+        header_secret: ${{ secrets.HEADERS }}
       run: |
         python ETH.py
 
