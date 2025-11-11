@@ -4,8 +4,7 @@ import requests
 import  json
 import datetime
 
-with open("header.cfg",encoding="utf-8-sig") as fp:
-    header_content=json.loads(fp.read())
+header_content=json.loads(os.getenv('header_secret'))
 
 def is_exist(filename):
     try:
@@ -68,4 +67,5 @@ def get_new_data():
 
 
 if __name__=="__main__":
+
     get_new_data()
