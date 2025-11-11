@@ -62,13 +62,14 @@ def get_new_data():
         print(f"Retrieved Data Count: {len(new_data)}")
         if not new_data:
             return
-        # print(f"The oldest message Date: {timestamp_to_utc5(float(new_data[-1]['date'])).strftime('%Y-%m-%d %H:%M:%S %Z')}")
+        print(f"The oldest message Date: {timestamp_to_utc5(float(new_data[-1]['date'])).strftime('%Y-%m-%d %H:%M:%S %Z')}")
         data_update(new_data)
 
 
 if __name__=="__main__":
 
     get_new_data()
+
 
 
 
