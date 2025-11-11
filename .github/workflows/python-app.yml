@@ -13,8 +13,6 @@ on:
     - cron: '0 0 0/4 * * ? *'
   watch:
     types: [started]
-permissions:
-  contents:read, contents:write, metadata:read, actions:write
 
 jobs:
   build:
