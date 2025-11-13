@@ -54,11 +54,17 @@ def data_update(new_data):
 
 
 def get_new_data():
-
+    tsession=requests.session()
+    tsession.headers.update(header_content)
     for i in range(1,40):
         url=f"https://www.binance.com/bapi/composite/v4/friendly/pgc/content/queryByHashtag?hashtag=%23ETH&pageIndex={i}&pageSize=20&orderBy=LATEST"
-        test2 = requests.get(url, headers=header_content)
-        new_data = json.loads(test2.content)['data']["feedData"]
+        for _ in range(2):
+            try:
+                test2 = tsession.get(url)
+                new_data = json.loads(test2.content)['data']["feedData"]
+                break
+            except TypeError:
+                continue
         print(f"Retrieved Data Count: {len(new_data)}")
         if not new_data:
             return
@@ -69,6 +75,7 @@ def get_new_data():
 if __name__=="__main__":
 
     get_new_data()
+
 
 
 
