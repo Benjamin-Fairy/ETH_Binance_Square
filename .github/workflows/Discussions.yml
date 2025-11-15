@@ -9,8 +9,8 @@ on:
   push:
     tags:
     - 'v*'
-  # schedule:
-    # - cron: '25 0/4 * * *'
+  schedule:
+    - cron: '25 0/4 * * *'
   watch:
     types: [started]
   workflow_dispatch:
