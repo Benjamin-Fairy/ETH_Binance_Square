@@ -44,6 +44,7 @@ jobs:
         push-branch: 'main'
         commit-message: 'Autoupdate'
         force-add: 'true'
+        force-push: 'true'
         files: data/ dataid/
         name: ${{ secrets.GH_NAME }}
         email: ${{ secrets.GH_EMAIL }}
