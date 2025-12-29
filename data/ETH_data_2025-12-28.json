@@ -455831,5 +455831,719 @@
         "userGuideRecommendReasonInfo": null,
         "quoteCommentVO": null,
         "previewSpaceLive": null
+    },
+    {
+        "tradingPairs": [
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "BTC",
+                "symbol": "BTCUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/87496d50-2408-43e1-ad4c-78b47b448a6a.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "klineChartDataPointList": null,
+                "eventEndTime": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            },
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "ETH",
+                "symbol": "ETHUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/3a8c9fe6-2a76-4ace-aa07-415d994de6f0.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "klineChartDataPointList": null,
+                "eventEndTime": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            }
+        ],
+        "coinPairList": [
+            "$BTC ",
+            "$ETH "
+        ],
+        "tradingPairsV2": [
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "BTC",
+                "symbol": "BTCUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/87496d50-2408-43e1-ad4c-78b47b448a6a.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "supportedMarkets": [
+                    "FUTURES_UM",
+                    "CONVERT",
+                    "SPOT"
+                ],
+                "preferredMarkets": null,
+                "price": "89470",
+                "priceRaw": "89470",
+                "priceChange": "1.88",
+                "priceChangeChart": [
+                    {
+                        "value": 87800.0,
+                        "dateTime": 1766915999999
+                    },
+                    {
+                        "value": 87856.91,
+                        "dateTime": 1766919599999
+                    },
+                    {
+                        "value": 87883.25,
+                        "dateTime": 1766923199999
+                    },
+                    {
+                        "value": 87850.6,
+                        "dateTime": 1766926799999
+                    },
+                    {
+                        "value": 87896.59,
+                        "dateTime": 1766930399999
+                    },
+                    {
+                        "value": 87910.0,
+                        "dateTime": 1766933999999
+                    },
+                    {
+                        "value": 87836.27,
+                        "dateTime": 1766937599999
+                    },
+                    {
+                        "value": 87814.04,
+                        "dateTime": 1766941199999
+                    },
+                    {
+                        "value": 87760.0,
+                        "dateTime": 1766944799999
+                    },
+                    {
+                        "value": 87598.49,
+                        "dateTime": 1766948399999
+                    },
+                    {
+                        "value": 87520.75,
+                        "dateTime": 1766951999999
+                    },
+                    {
+                        "value": 87514.76,
+                        "dateTime": 1766955599999
+                    },
+                    {
+                        "value": 87588.37,
+                        "dateTime": 1766959199999
+                    },
+                    {
+                        "value": 87900.09,
+                        "dateTime": 1766962799999
+                    },
+                    {
+                        "value": 87952.71,
+                        "dateTime": 1766966399999
+                    },
+                    {
+                        "value": 88295.69,
+                        "dateTime": 1766969999999
+                    },
+                    {
+                        "value": 88445.57,
+                        "dateTime": 1766973599999
+                    },
+                    {
+                        "value": 89163.25,
+                        "dateTime": 1766977199999
+                    },
+                    {
+                        "value": 90123.55,
+                        "dateTime": 1766980799999
+                    },
+                    {
+                        "value": 90143.06,
+                        "dateTime": 1766984399999
+                    },
+                    {
+                        "value": 89984.0,
+                        "dateTime": 1766987999999
+                    },
+                    {
+                        "value": 89777.26,
+                        "dateTime": 1766991599999
+                    },
+                    {
+                        "value": 89617.71,
+                        "dateTime": 1766995199999
+                    },
+                    {
+                        "value": 89508.58,
+                        "dateTime": 1766998799999
+                    }
+                ],
+                "tokenLatestInfo": null,
+                "airdropEventEndTime": null,
+                "relatedEarnProduct": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            },
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "ETH",
+                "symbol": "ETHUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/3a8c9fe6-2a76-4ace-aa07-415d994de6f0.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "supportedMarkets": [
+                    "FUTURES_UM",
+                    "CONVERT",
+                    "SPOT"
+                ],
+                "preferredMarkets": null,
+                "price": "3012.53",
+                "priceRaw": "3012.53",
+                "priceChange": "2.47",
+                "priceChangeChart": [
+                    {
+                        "value": 2937.82,
+                        "dateTime": 1766915999999
+                    },
+                    {
+                        "value": 2943.34,
+                        "dateTime": 1766919599999
+                    },
+                    {
+                        "value": 2944.09,
+                        "dateTime": 1766923199999
+                    },
+                    {
+                        "value": 2939.44,
+                        "dateTime": 1766926799999
+                    },
+                    {
+                        "value": 2940.42,
+                        "dateTime": 1766930399999
+                    },
+                    {
+                        "value": 2945.69,
+                        "dateTime": 1766933999999
+                    },
+                    {
+                        "value": 2949.46,
+                        "dateTime": 1766937599999
+                    },
+                    {
+                        "value": 2942.72,
+                        "dateTime": 1766941199999
+                    },
+                    {
+                        "value": 2945.89,
+                        "dateTime": 1766944799999
+                    },
+                    {
+                        "value": 2931.31,
+                        "dateTime": 1766948399999
+                    },
+                    {
+                        "value": 2933.61,
+                        "dateTime": 1766951999999
+                    },
+                    {
+                        "value": 2932.37,
+                        "dateTime": 1766955599999
+                    },
+                    {
+                        "value": 2938.28,
+                        "dateTime": 1766959199999
+                    },
+                    {
+                        "value": 2950.2,
+                        "dateTime": 1766962799999
+                    },
+                    {
+                        "value": 2950.91,
+                        "dateTime": 1766966399999
+                    },
+                    {
+                        "value": 2966.77,
+                        "dateTime": 1766969999999
+                    },
+                    {
+                        "value": 2980.95,
+                        "dateTime": 1766973599999
+                    },
+                    {
+                        "value": 3003.9,
+                        "dateTime": 1766977199999
+                    },
+                    {
+                        "value": 3043.75,
+                        "dateTime": 1766980799999
+                    },
+                    {
+                        "value": 3040.06,
+                        "dateTime": 1766984399999
+                    },
+                    {
+                        "value": 3037.54,
+                        "dateTime": 1766987999999
+                    },
+                    {
+                        "value": 3036.36,
+                        "dateTime": 1766991599999
+                    },
+                    {
+                        "value": 3019.51,
+                        "dateTime": 1766995199999
+                    },
+                    {
+                        "value": 3012.67,
+                        "dateTime": 1766998799999
+                    }
+                ],
+                "tokenLatestInfo": null,
+                "airdropEventEndTime": null,
+                "relatedEarnProduct": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            }
+        ],
+        "userInputTradingPairs": [
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "BTC",
+                "symbol": "BTCUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/87496d50-2408-43e1-ad4c-78b47b448a6a.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "supportedMarkets": [
+                    "FUTURES_UM",
+                    "CONVERT",
+                    "SPOT"
+                ],
+                "preferredMarkets": null,
+                "price": "89470",
+                "priceRaw": "89470",
+                "priceChange": "1.88",
+                "priceChangeChart": [
+                    {
+                        "value": 87800.0,
+                        "dateTime": 1766915999999
+                    },
+                    {
+                        "value": 87856.91,
+                        "dateTime": 1766919599999
+                    },
+                    {
+                        "value": 87883.25,
+                        "dateTime": 1766923199999
+                    },
+                    {
+                        "value": 87850.6,
+                        "dateTime": 1766926799999
+                    },
+                    {
+                        "value": 87896.59,
+                        "dateTime": 1766930399999
+                    },
+                    {
+                        "value": 87910.0,
+                        "dateTime": 1766933999999
+                    },
+                    {
+                        "value": 87836.27,
+                        "dateTime": 1766937599999
+                    },
+                    {
+                        "value": 87814.04,
+                        "dateTime": 1766941199999
+                    },
+                    {
+                        "value": 87760.0,
+                        "dateTime": 1766944799999
+                    },
+                    {
+                        "value": 87598.49,
+                        "dateTime": 1766948399999
+                    },
+                    {
+                        "value": 87520.75,
+                        "dateTime": 1766951999999
+                    },
+                    {
+                        "value": 87514.76,
+                        "dateTime": 1766955599999
+                    },
+                    {
+                        "value": 87588.37,
+                        "dateTime": 1766959199999
+                    },
+                    {
+                        "value": 87900.09,
+                        "dateTime": 1766962799999
+                    },
+                    {
+                        "value": 87952.71,
+                        "dateTime": 1766966399999
+                    },
+                    {
+                        "value": 88295.69,
+                        "dateTime": 1766969999999
+                    },
+                    {
+                        "value": 88445.57,
+                        "dateTime": 1766973599999
+                    },
+                    {
+                        "value": 89163.25,
+                        "dateTime": 1766977199999
+                    },
+                    {
+                        "value": 90123.55,
+                        "dateTime": 1766980799999
+                    },
+                    {
+                        "value": 90143.06,
+                        "dateTime": 1766984399999
+                    },
+                    {
+                        "value": 89984.0,
+                        "dateTime": 1766987999999
+                    },
+                    {
+                        "value": 89777.26,
+                        "dateTime": 1766991599999
+                    },
+                    {
+                        "value": 89617.71,
+                        "dateTime": 1766995199999
+                    },
+                    {
+                        "value": 89508.58,
+                        "dateTime": 1766998799999
+                    }
+                ],
+                "tokenLatestInfo": null,
+                "airdropEventEndTime": null,
+                "relatedEarnProduct": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            },
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "ETH",
+                "symbol": "ETHUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/3a8c9fe6-2a76-4ace-aa07-415d994de6f0.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "supportedMarkets": [
+                    "FUTURES_UM",
+                    "CONVERT",
+                    "SPOT"
+                ],
+                "preferredMarkets": null,
+                "price": "3012.53",
+                "priceRaw": "3012.53",
+                "priceChange": "2.47",
+                "priceChangeChart": [
+                    {
+                        "value": 2937.82,
+                        "dateTime": 1766915999999
+                    },
+                    {
+                        "value": 2943.34,
+                        "dateTime": 1766919599999
+                    },
+                    {
+                        "value": 2944.09,
+                        "dateTime": 1766923199999
+                    },
+                    {
+                        "value": 2939.44,
+                        "dateTime": 1766926799999
+                    },
+                    {
+                        "value": 2940.42,
+                        "dateTime": 1766930399999
+                    },
+                    {
+                        "value": 2945.69,
+                        "dateTime": 1766933999999
+                    },
+                    {
+                        "value": 2949.46,
+                        "dateTime": 1766937599999
+                    },
+                    {
+                        "value": 2942.72,
+                        "dateTime": 1766941199999
+                    },
+                    {
+                        "value": 2945.89,
+                        "dateTime": 1766944799999
+                    },
+                    {
+                        "value": 2931.31,
+                        "dateTime": 1766948399999
+                    },
+                    {
+                        "value": 2933.61,
+                        "dateTime": 1766951999999
+                    },
+                    {
+                        "value": 2932.37,
+                        "dateTime": 1766955599999
+                    },
+                    {
+                        "value": 2938.28,
+                        "dateTime": 1766959199999
+                    },
+                    {
+                        "value": 2950.2,
+                        "dateTime": 1766962799999
+                    },
+                    {
+                        "value": 2950.91,
+                        "dateTime": 1766966399999
+                    },
+                    {
+                        "value": 2966.77,
+                        "dateTime": 1766969999999
+                    },
+                    {
+                        "value": 2980.95,
+                        "dateTime": 1766973599999
+                    },
+                    {
+                        "value": 3003.9,
+                        "dateTime": 1766977199999
+                    },
+                    {
+                        "value": 3043.75,
+                        "dateTime": 1766980799999
+                    },
+                    {
+                        "value": 3040.06,
+                        "dateTime": 1766984399999
+                    },
+                    {
+                        "value": 3037.54,
+                        "dateTime": 1766987999999
+                    },
+                    {
+                        "value": 3036.36,
+                        "dateTime": 1766991599999
+                    },
+                    {
+                        "value": 3019.51,
+                        "dateTime": 1766995199999
+                    },
+                    {
+                        "value": 3012.67,
+                        "dateTime": 1766998799999
+                    }
+                ],
+                "tokenLatestInfo": null,
+                "airdropEventEndTime": null,
+                "relatedEarnProduct": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            }
+        ],
+        "tradeWidgets": [
+            {
+                "coin": "ETH",
+                "logoUrl": null,
+                "bridge": "USDT",
+                "type": "spot",
+                "iosLink": null,
+                "androidLink": null,
+                "webLink": null,
+                "price": null,
+                "priceRaw": null,
+                "priceChange": null,
+                "priceChangeChart": null,
+                "needRemove": false,
+                "alphaId": null,
+                "chainId": "",
+                "contractAddress": "",
+                "chainLogo": null,
+                "chainName": null,
+                "marketCap": null,
+                "alphaWeb3IosLink": null,
+                "alphaWeb3AndroidLink": null,
+                "marketTokenId": null,
+                "supportedMarkets": null
+            },
+            {
+                "coin": "BTC",
+                "logoUrl": null,
+                "bridge": "USDT",
+                "type": "spot",
+                "iosLink": null,
+                "androidLink": null,
+                "webLink": null,
+                "price": null,
+                "priceRaw": null,
+                "priceChange": null,
+                "priceChangeChart": null,
+                "needRemove": false,
+                "alphaId": null,
+                "chainId": "",
+                "contractAddress": "",
+                "chainLogo": null,
+                "chainName": null,
+                "marketCap": null,
+                "alphaWeb3IosLink": null,
+                "alphaWeb3AndroidLink": null,
+                "marketTokenId": null,
+                "supportedMarkets": null
+            }
+        ],
+        "aiGeneratedQuestion": null,
+        "id": "34336003842105",
+        "cardType": "BUZZ_SHORT",
+        "contentType": 1,
+        "title": null,
+        "subTitle": null,
+        "authorName": "R M J",
+        "authorAvatar": "https://public.bnbstatic.com/image/pgc/202507/5e5da534893c438cf0895888022437b2.png",
+        "authorLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYnV6ei1wcm9maWxlL2luZGV4&startPageQuery=dWlkPWR1bW15JnVzZXJuYW1lPXJtal90cmFkZXMmZGZfc291cmNlPXRvcGlj&sceneValue=1100",
+        "authorIsVerified": false,
+        "authorVerificationType": 0,
+        "authorRole": 0,
+        "iosLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM0MzM2MDAzODQyMTA1JmRmX3NvdXJjZT10b3BpYw&sceneValue=1100",
+        "androidLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM0MzM2MDAzODQyMTA1JmRmX3NvdXJjZT10b3BpYw&sceneValue=1100",
+        "webLink": "https://www.binance.com/en/square/post/34336003842105",
+        "shareLink": "https://app.binance.com/uni-qr/cpos/34336003842105?r=SGSBZSGC&l=en",
+        "date": 1766953707,
+        "handWork": null,
+        "contentStatus": 2,
+        "squareAuthorId": "yiywg8rYyvbISJrAeCbBiQ",
+        "needTranslate": false,
+        "needAutoTranslate": true,
+        "isFeatured": false,
+        "featuredLink": "bnc://app.binance.com/content/featured",
+        "topFlagInHashtagDetailPage": false,
+        "topFlagForProjectLatestContent": false,
+        "translatedData": null,
+        "redEnvelop": null,
+        "isAssociateRedEnvelop": false,
+        "portfolioPerformance": null,
+        "shareTrading": null,
+        "tradingSignal": null,
+        "isStickyToTop": false,
+        "badgeInfos": null,
+        "hyperlinkList": null,
+        "mentionUserVOs": [],
+        "extraFeature": "NO_FEATURE",
+        "quoteContent": null,
+        "detectedLanguage": "en",
+        "isAddedToBookmark": null,
+        "partnerLabel": null,
+        "hotComment": null,
+        "hotComments": null,
+        "holdDays": null,
+        "userTag": null,
+        "userLabels": null,
+        "commentHint": null,
+        "listCoinPollVO": null,
+        "tradingPosition": null,
+        "isCreatedByAI": false,
+        "jumpLink": null,
+        "aiSummary": null,
+        "coinPairBridge": "USDT",
+        "liveStrategy": null,
+        "displayLabel": null,
+        "content": "TOM LEE PREDICTIONS: \n\n- $9,000 $ETH  in early 2026\n\n{spot}(ETHUSDT)\n\n- $200,000 $BTC  in 2026\n\n{spot}(BTCUSDT)\n\n- $20,000 ETH long-term\n\n- Crypto Supercycle\n\n#ETH #BTC #RMJ_trades ",
+        "images": [
+            "https://public.bnbstatic.com/static/content/square/images/f3ab203aa2c74cd586a59b70df147ec6.png"
+        ],
+        "likeCount": 0,
+        "shareCount": 1,
+        "viewCount": 7,
+        "commentCount": 0,
+        "quoteCount": 0,
+        "isLiked": false,
+        "isFollowed": false,
+        "followsYou": false,
+        "hashtagList": [
+            "#ETH ",
+            "#BTC ",
+            "#RMJ_trades "
+        ],
+        "hashtagIdentifyList": [],
+        "sourceType": 5,
+        "commentLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM0MzM2MDAzODQyMTA1JnBvc3RBY3Rpb249Y29tbWVudCZkZl9zb3VyY2U9dG9waWM&sceneValue=1100",
+        "quotedContentWebLink": "https://www.binance.com/en/square/post/34336003842105",
+        "quotedContentDeepLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM0MzM2MDAzODQyMTA1JnBvc3RBY3Rpb249cXVvdGUmZGZfc291cmNlPXRvcGlj",
+        "reportLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYnV6ei1yZXBvcnQvaW5kZXg&startPageQuery=Y29udGVudElkPTM0MzM2MDAzODQyMTA1",
+        "tendency": 0,
+        "imageMetaList": [
+            {
+                "url": "https://public.bnbstatic.com/static/content/square/images/f3ab203aa2c74cd586a59b70df147ec6.png",
+                "width": 1189,
+                "height": 1455,
+                "source": "USER_UPLOADED",
+                "sourcePage": null
+            }
+        ],
+        "coverMeta": null,
+        "totalReactionCount": 0,
+        "reactionCount": [
+            {
+                "reactionType": 1,
+                "count": 0
+            },
+            {
+                "reactionType": 2,
+                "count": 0
+            },
+            {
+                "reactionType": 3,
+                "count": 0
+            },
+            {
+                "reactionType": 4,
+                "count": 0
+            },
+            {
+                "reactionType": 5,
+                "count": 0
+            }
+        ],
+        "isReaction": null,
+        "liveStatusVO": null,
+        "username": "rmj_trades",
+        "userGuideRecommendReasonInfo": null,
+        "quoteCommentVO": null,
+        "previewSpaceLive": null
     }
 ]
