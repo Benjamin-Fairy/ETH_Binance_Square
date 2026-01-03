@@ -10,8 +10,8 @@ from pathlib import Path
 # ======================================================
 # Global configuration
 # ======================================================
-rcParams['font.family'] = ['Microsoft YaHei', 'SimHei', 'DejaVu Sans']
-rcParams['axes.unicode_minus'] = False
+# rcParams['font.family'] = ['Microsoft YaHei', 'SimHei', 'DejaVu Sans']
+# rcParams['axes.unicode_minus'] = False
 
 OUTPUT_DIR = Path("./figures")
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -218,7 +218,7 @@ def plot_backtest_summary(trades, filename):
 # ======================================================
 if __name__ == "__main__":
     files = sorted(glob.glob(
-        r".\ETH_Price_JSON\ETHUSDT_1min_*.json"
+        "./ETH_Price_JSON/ETHUSDT_1min_*.json"
     ))
 
     df = add_indicators(resample_ohlcv(load_klines(files)))
