@@ -12,9 +12,6 @@
 
 ---
 
-### Last 7 Days Backtest
-![Backtest](figures/ETH_USDT_7d_backtest.png)
-
 ## Overview
 This repository presents a quantitative trading strategy applied to **ETH-USDT**
 using historical Binance data.
