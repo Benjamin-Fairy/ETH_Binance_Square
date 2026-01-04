@@ -1,0 +1,269 @@
+﻿[
+    {
+        "tradingPairs": [
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "ETH",
+                "symbol": "ETHUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/3a8c9fe6-2a76-4ace-aa07-415d994de6f0.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "klineChartDataPointList": null,
+                "eventEndTime": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            }
+        ],
+        "coinPairList": null,
+        "tradingPairsV2": [
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "ETH",
+                "symbol": "ETHUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/3a8c9fe6-2a76-4ace-aa07-415d994de6f0.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "supportedMarkets": [
+                    "SPOT",
+                    "FUTURES_UM",
+                    "CONVERT"
+                ],
+                "preferredMarkets": null,
+                "price": "3146.95",
+                "priceRaw": "3146.95",
+                "priceChange": "0.93",
+                "priceChangeChart": [
+                    {
+                        "value": 3098.34,
+                        "dateTime": 1767423599999
+                    },
+                    {
+                        "value": 3090.5,
+                        "dateTime": 1767427199999
+                    },
+                    {
+                        "value": 3095.48,
+                        "dateTime": 1767430799999
+                    },
+                    {
+                        "value": 3100.9,
+                        "dateTime": 1767434399999
+                    },
+                    {
+                        "value": 3097.31,
+                        "dateTime": 1767437999999
+                    },
+                    {
+                        "value": 3098.49,
+                        "dateTime": 1767441599999
+                    },
+                    {
+                        "value": 3105.04,
+                        "dateTime": 1767445199999
+                    },
+                    {
+                        "value": 3103.03,
+                        "dateTime": 1767448799999
+                    },
+                    {
+                        "value": 3106.0,
+                        "dateTime": 1767452399999
+                    },
+                    {
+                        "value": 3101.31,
+                        "dateTime": 1767455999999
+                    },
+                    {
+                        "value": 3107.03,
+                        "dateTime": 1767459599999
+                    },
+                    {
+                        "value": 3108.46,
+                        "dateTime": 1767463199999
+                    },
+                    {
+                        "value": 3116.46,
+                        "dateTime": 1767466799999
+                    },
+                    {
+                        "value": 3113.13,
+                        "dateTime": 1767470399999
+                    },
+                    {
+                        "value": 3115.65,
+                        "dateTime": 1767473999999
+                    },
+                    {
+                        "value": 3120.87,
+                        "dateTime": 1767477599999
+                    },
+                    {
+                        "value": 3122.78,
+                        "dateTime": 1767481199999
+                    },
+                    {
+                        "value": 3127.11,
+                        "dateTime": 1767484799999
+                    },
+                    {
+                        "value": 3157.75,
+                        "dateTime": 1767488399999
+                    },
+                    {
+                        "value": 3150.17,
+                        "dateTime": 1767491999999
+                    },
+                    {
+                        "value": 3141.12,
+                        "dateTime": 1767495599999
+                    },
+                    {
+                        "value": 3147.36,
+                        "dateTime": 1767499199999
+                    },
+                    {
+                        "value": 3148.25,
+                        "dateTime": 1767502799999
+                    },
+                    {
+                        "value": 3146.32,
+                        "dateTime": 1767506399999
+                    }
+                ],
+                "tokenLatestInfo": null,
+                "airdropEventEndTime": null,
+                "relatedEarnProduct": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            }
+        ],
+        "userInputTradingPairs": [],
+        "tradeWidgets": null,
+        "aiGeneratedQuestion": null,
+        "id": "34617243491609",
+        "cardType": "BUZZ_SHORT",
+        "contentType": 1,
+        "title": null,
+        "subTitle": null,
+        "authorName": "Trader ETH",
+        "authorAvatar": "https://public.bnbstatic.com/image/pgc/202512/7fb699b4271d883272a628f383366cbb.png",
+        "authorLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYnV6ei1wcm9maWxlL2luZGV4&startPageQuery=dWlkPWR1bW15JnVzZXJuYW1lPVNxdWFyZS1DcmVhdG9yLTcyZmU5NDdiYjQ4MyZkZl9zb3VyY2U9dG9waWM&sceneValue=1100",
+        "authorIsVerified": false,
+        "authorVerificationType": 0,
+        "authorRole": 0,
+        "iosLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM0NjE3MjQzNDkxNjA5JmRmX3NvdXJjZT10b3BpYw&sceneValue=1100",
+        "androidLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM0NjE3MjQzNDkxNjA5JmRmX3NvdXJjZT10b3BpYw&sceneValue=1100",
+        "webLink": "https://www.binance.com/en/square/post/34617243491609",
+        "shareLink": "https://app.binance.com/uni-qr/cpos/34617243491609?r=GOSAYYOD&l=en",
+        "date": 1767503003,
+        "handWork": null,
+        "contentStatus": 2,
+        "squareAuthorId": "A285W3beMPkd-Ky39sKyJg",
+        "needTranslate": true,
+        "needAutoTranslate": true,
+        "isFeatured": false,
+        "featuredLink": "bnc://app.binance.com/content/featured",
+        "topFlagInHashtagDetailPage": false,
+        "topFlagForProjectLatestContent": false,
+        "translatedData": null,
+        "redEnvelop": null,
+        "isAssociateRedEnvelop": false,
+        "portfolioPerformance": null,
+        "shareTrading": null,
+        "tradingSignal": null,
+        "isStickyToTop": false,
+        "badgeInfos": null,
+        "hyperlinkList": null,
+        "mentionUserVOs": [],
+        "extraFeature": "NO_FEATURE",
+        "quoteContent": null,
+        "detectedLanguage": "vi",
+        "isAddedToBookmark": null,
+        "partnerLabel": null,
+        "hotComment": null,
+        "hotComments": null,
+        "holdDays": null,
+        "userTag": null,
+        "userLabels": null,
+        "commentHint": null,
+        "listCoinPollVO": null,
+        "tradingPosition": null,
+        "isCreatedByAI": false,
+        "jumpLink": null,
+        "aiSummary": null,
+        "coinPairBridge": "USDT",
+        "liveStrategy": null,
+        "displayLabel": null,
+        "content": "#ETH $\nEthereum đang bứt phá mạnh mẽ, duy trì xu hướng tăng rõ ràng với dòng tiền quay lại thị trường. Giá vượt vùng tích lũy quan trọng cho thấy niềm tin nhà đầu tư gia tăng. ETH hứa hẹn tiếp tục tăng trưởng tích cực trong thời gian tới.",
+        "images": [
+            "https://public.bnbstatic.com/image/pgc/202601/6d8c4b299da9681b29252125a85503e9.jpg"
+        ],
+        "likeCount": 1,
+        "shareCount": 0,
+        "viewCount": 1,
+        "commentCount": 0,
+        "quoteCount": 0,
+        "isLiked": false,
+        "isFollowed": false,
+        "followsYou": false,
+        "hashtagList": [
+            "#ETH "
+        ],
+        "hashtagIdentifyList": [],
+        "sourceType": 5,
+        "commentLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM0NjE3MjQzNDkxNjA5JnBvc3RBY3Rpb249Y29tbWVudCZkZl9zb3VyY2U9dG9waWM&sceneValue=1100",
+        "quotedContentWebLink": "https://www.binance.com/en/square/post/34617243491609",
+        "quotedContentDeepLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM0NjE3MjQzNDkxNjA5JnBvc3RBY3Rpb249cXVvdGUmZGZfc291cmNlPXRvcGlj",
+        "reportLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYnV6ei1yZXBvcnQvaW5kZXg&startPageQuery=Y29udGVudElkPTM0NjE3MjQzNDkxNjA5",
+        "tendency": 0,
+        "imageMetaList": [
+            {
+                "url": "https://public.bnbstatic.com/image/pgc/202601/6d8c4b299da9681b29252125a85503e9.jpg",
+                "width": 720,
+                "height": 393,
+                "source": "USER_UPLOADED",
+                "sourcePage": "write2earn"
+            }
+        ],
+        "coverMeta": null,
+        "totalReactionCount": 1,
+        "reactionCount": [
+            {
+                "reactionType": 1,
+                "count": 1
+            },
+            {
+                "reactionType": 2,
+                "count": 0
+            },
+            {
+                "reactionType": 3,
+                "count": 0
+            },
+            {
+                "reactionType": 4,
+                "count": 0
+            },
+            {
+                "reactionType": 5,
+                "count": 0
+            }
+        ],
+        "isReaction": null,
+        "liveStatusVO": null,
+        "username": "Square-Creator-72fe947bb483",
+        "userGuideRecommendReasonInfo": null,
+        "quoteCommentVO": null,
+        "previewSpaceLive": null
+    }
+]
