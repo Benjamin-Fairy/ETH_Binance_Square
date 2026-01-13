@@ -511204,5 +511204,614 @@
         "userGuideRecommendReasonInfo": null,
         "quoteCommentVO": null,
         "previewSpaceLive": null
+    },
+    {
+        "tradingPairs": [
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "BTC",
+                "symbol": "BTCUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/87496d50-2408-43e1-ad4c-78b47b448a6a.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "klineChartDataPointList": null,
+                "eventEndTime": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            },
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "BREV",
+                "symbol": "BREVUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20260105/22015966-0d12-4ec5-85d5-310ace338cd9.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "klineChartDataPointList": null,
+                "eventEndTime": null,
+                "megadropProjectId": null,
+                "alphaId": "ALPHA_510",
+                "chainId": "56",
+                "contractAddress": "0x086f405146ce90135750bbec9a063a8b20a8bffb",
+                "chainLogo": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20250228/d0216ce4-a3e9-4bda-8937-4a6aa943ccf2.png",
+                "chainName": "BSC"
+            },
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "BNB",
+                "symbol": "BNBUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20220218/94863af2-c980-42cf-a139-7b9f462a36c2.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "klineChartDataPointList": null,
+                "eventEndTime": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            }
+        ],
+        "coinPairList": null,
+        "tradingPairsV2": [
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "BTC",
+                "symbol": "BTCUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20201110/87496d50-2408-43e1-ad4c-78b47b448a6a.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "supportedMarkets": [
+                    "CONVERT",
+                    "SPOT",
+                    "FUTURES_UM"
+                ],
+                "preferredMarkets": null,
+                "futuresSymbol": "BTCUSDT",
+                "price": "92020.57",
+                "priceRaw": "92020.57",
+                "priceChange": "1.50",
+                "priceChangeChart": [
+                    {
+                        "value": 90908.95,
+                        "dateTime": 1768229999999
+                    },
+                    {
+                        "value": 91665.0,
+                        "dateTime": 1768233599999
+                    },
+                    {
+                        "value": 92123.52,
+                        "dateTime": 1768237199999
+                    },
+                    {
+                        "value": 91522.83,
+                        "dateTime": 1768240799999
+                    },
+                    {
+                        "value": 91691.8,
+                        "dateTime": 1768244399999
+                    },
+                    {
+                        "value": 91861.27,
+                        "dateTime": 1768247999999
+                    },
+                    {
+                        "value": 91484.86,
+                        "dateTime": 1768251599999
+                    },
+                    {
+                        "value": 91055.17,
+                        "dateTime": 1768255199999
+                    },
+                    {
+                        "value": 91244.99,
+                        "dateTime": 1768258799999
+                    },
+                    {
+                        "value": 91296.2,
+                        "dateTime": 1768262399999
+                    },
+                    {
+                        "value": 91482.74,
+                        "dateTime": 1768265999999
+                    },
+                    {
+                        "value": 91185.35,
+                        "dateTime": 1768269599999
+                    },
+                    {
+                        "value": 91118.3,
+                        "dateTime": 1768273199999
+                    },
+                    {
+                        "value": 91408.91,
+                        "dateTime": 1768276799999
+                    },
+                    {
+                        "value": 91515.16,
+                        "dateTime": 1768280399999
+                    },
+                    {
+                        "value": 91920.99,
+                        "dateTime": 1768283999999
+                    },
+                    {
+                        "value": 92184.36,
+                        "dateTime": 1768287599999
+                    },
+                    {
+                        "value": 91942.0,
+                        "dateTime": 1768291199999
+                    },
+                    {
+                        "value": 92165.9,
+                        "dateTime": 1768294799999
+                    },
+                    {
+                        "value": 92269.42,
+                        "dateTime": 1768298399999
+                    },
+                    {
+                        "value": 92128.62,
+                        "dateTime": 1768301999999
+                    },
+                    {
+                        "value": 92000.74,
+                        "dateTime": 1768305599999
+                    },
+                    {
+                        "value": 92109.35,
+                        "dateTime": 1768309199999
+                    },
+                    {
+                        "value": 92033.0,
+                        "dateTime": 1768312799999
+                    }
+                ],
+                "tokenLatestInfo": null,
+                "airdropEventEndTime": null,
+                "relatedEarnProduct": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            },
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "BREV",
+                "symbol": "BREVUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20260105/22015966-0d12-4ec5-85d5-310ace338cd9.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "supportedMarkets": [
+                    "CONVERT",
+                    "SPOT",
+                    "FUTURES_UM"
+                ],
+                "preferredMarkets": null,
+                "futuresSymbol": "BREVUSDT",
+                "price": "0.3394",
+                "priceRaw": "0.3394",
+                "priceChange": "1.70",
+                "priceChangeChart": [
+                    {
+                        "value": 0.3351,
+                        "dateTime": 1768229999999
+                    },
+                    {
+                        "value": 0.3356,
+                        "dateTime": 1768233599999
+                    },
+                    {
+                        "value": 0.3355,
+                        "dateTime": 1768237199999
+                    },
+                    {
+                        "value": 0.3318,
+                        "dateTime": 1768240799999
+                    },
+                    {
+                        "value": 0.3332,
+                        "dateTime": 1768244399999
+                    },
+                    {
+                        "value": 0.335,
+                        "dateTime": 1768247999999
+                    },
+                    {
+                        "value": 0.3345,
+                        "dateTime": 1768251599999
+                    },
+                    {
+                        "value": 0.3332,
+                        "dateTime": 1768255199999
+                    },
+                    {
+                        "value": 0.3334,
+                        "dateTime": 1768258799999
+                    },
+                    {
+                        "value": 0.3358,
+                        "dateTime": 1768262399999
+                    },
+                    {
+                        "value": 0.3227,
+                        "dateTime": 1768265999999
+                    },
+                    {
+                        "value": 0.3211,
+                        "dateTime": 1768269599999
+                    },
+                    {
+                        "value": 0.3129,
+                        "dateTime": 1768273199999
+                    },
+                    {
+                        "value": 0.31,
+                        "dateTime": 1768276799999
+                    },
+                    {
+                        "value": 0.3128,
+                        "dateTime": 1768280399999
+                    },
+                    {
+                        "value": 0.3119,
+                        "dateTime": 1768283999999
+                    },
+                    {
+                        "value": 0.3144,
+                        "dateTime": 1768287599999
+                    },
+                    {
+                        "value": 0.3249,
+                        "dateTime": 1768291199999
+                    },
+                    {
+                        "value": 0.3458,
+                        "dateTime": 1768294799999
+                    },
+                    {
+                        "value": 0.3345,
+                        "dateTime": 1768298399999
+                    },
+                    {
+                        "value": 0.345,
+                        "dateTime": 1768301999999
+                    },
+                    {
+                        "value": 0.3407,
+                        "dateTime": 1768305599999
+                    },
+                    {
+                        "value": 0.3378,
+                        "dateTime": 1768309199999
+                    },
+                    {
+                        "value": 0.339,
+                        "dateTime": 1768312799999
+                    }
+                ],
+                "tokenLatestInfo": null,
+                "airdropEventEndTime": null,
+                "relatedEarnProduct": null,
+                "megadropProjectId": null,
+                "alphaId": "ALPHA_510",
+                "chainId": "56",
+                "contractAddress": "0x086f405146ce90135750bbec9a063a8b20a8bffb",
+                "chainLogo": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20250228/d0216ce4-a3e9-4bda-8937-4a6aa943ccf2.png",
+                "chainName": "BSC"
+            },
+            {
+                "market": "SPOT",
+                "bridge": "USDT",
+                "code": "BNB",
+                "symbol": "BNBUSDT",
+                "logoUrl": "https://bin.bnbstatic.com/image/admin_mgs_image_upload/20220218/94863af2-c980-42cf-a139-7b9f462a36c2.png",
+                "marketV2": "SPOT",
+                "discussNumbers": null,
+                "supportedMarkets": [
+                    "CONVERT",
+                    "SPOT",
+                    "FUTURES_UM"
+                ],
+                "preferredMarkets": null,
+                "futuresSymbol": "BNBUSDT",
+                "price": "909.66",
+                "priceRaw": "909.66",
+                "priceChange": "1.14",
+                "priceChangeChart": [
+                    {
+                        "value": 899.86,
+                        "dateTime": 1768229999999
+                    },
+                    {
+                        "value": 904.28,
+                        "dateTime": 1768233599999
+                    },
+                    {
+                        "value": 905.67,
+                        "dateTime": 1768237199999
+                    },
+                    {
+                        "value": 904.51,
+                        "dateTime": 1768240799999
+                    },
+                    {
+                        "value": 907.78,
+                        "dateTime": 1768244399999
+                    },
+                    {
+                        "value": 907.79,
+                        "dateTime": 1768247999999
+                    },
+                    {
+                        "value": 905.22,
+                        "dateTime": 1768251599999
+                    },
+                    {
+                        "value": 902.59,
+                        "dateTime": 1768255199999
+                    },
+                    {
+                        "value": 905.8,
+                        "dateTime": 1768258799999
+                    },
+                    {
+                        "value": 905.78,
+                        "dateTime": 1768262399999
+                    },
+                    {
+                        "value": 906.31,
+                        "dateTime": 1768265999999
+                    },
+                    {
+                        "value": 903.35,
+                        "dateTime": 1768269599999
+                    },
+                    {
+                        "value": 904.8,
+                        "dateTime": 1768273199999
+                    },
+                    {
+                        "value": 906.36,
+                        "dateTime": 1768276799999
+                    },
+                    {
+                        "value": 909.42,
+                        "dateTime": 1768280399999
+                    },
+                    {
+                        "value": 909.13,
+                        "dateTime": 1768283999999
+                    },
+                    {
+                        "value": 911.75,
+                        "dateTime": 1768287599999
+                    },
+                    {
+                        "value": 910.05,
+                        "dateTime": 1768291199999
+                    },
+                    {
+                        "value": 910.48,
+                        "dateTime": 1768294799999
+                    },
+                    {
+                        "value": 909.14,
+                        "dateTime": 1768298399999
+                    },
+                    {
+                        "value": 908.9,
+                        "dateTime": 1768301999999
+                    },
+                    {
+                        "value": 907.68,
+                        "dateTime": 1768305599999
+                    },
+                    {
+                        "value": 909.37,
+                        "dateTime": 1768309199999
+                    },
+                    {
+                        "value": 909.65,
+                        "dateTime": 1768312799999
+                    }
+                ],
+                "tokenLatestInfo": null,
+                "airdropEventEndTime": null,
+                "relatedEarnProduct": null,
+                "megadropProjectId": null,
+                "alphaId": null,
+                "chainId": null,
+                "contractAddress": null,
+                "chainLogo": null,
+                "chainName": null
+            }
+        ],
+        "userInputTradingPairs": [],
+        "tradeWidgets": null,
+        "aiGeneratedQuestion": null,
+        "id": "35011900738105",
+        "cardType": "BUZZ_SHORT",
+        "contentType": 1,
+        "title": null,
+        "subTitle": null,
+        "authorName": "Doorman777",
+        "authorAvatar": "https://public.bnbstatic.com/image/pgc/202508/fe2e6588efac6a1fef7a178ecdea2ba6.png",
+        "authorLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYnV6ei1wcm9maWxlL2luZGV4&startPageQuery=dWlkPWR1bW15JnVzZXJuYW1lPVNxdWFyZS1DcmVhdG9yLThiYzA0N2FmNWE4ZGImZGZfc291cmNlPXRvcGlj&sceneValue=1100",
+        "authorIsVerified": false,
+        "authorVerificationType": 0,
+        "authorRole": 0,
+        "iosLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM1MDExOTAwNzM4MTA1JmRmX3NvdXJjZT10b3BpYw&sceneValue=1100",
+        "androidLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM1MDExOTAwNzM4MTA1JmRmX3NvdXJjZT10b3BpYw&sceneValue=1100",
+        "webLink": "https://www.binance.com/en/square/post/35011900738105",
+        "shareLink": "https://app.binance.com/uni-qr/cpos/35011900738105?r=AMZISZMZ&l=en",
+        "date": 1768273818,
+        "handWork": null,
+        "contentStatus": 2,
+        "squareAuthorId": "dzFE3e__4D78vVJm0TseQw",
+        "needTranslate": true,
+        "needAutoTranslate": true,
+        "isFeatured": false,
+        "featuredLink": "bnc://app.binance.com/content/featured",
+        "topFlagInHashtagDetailPage": false,
+        "topFlagForProjectLatestContent": false,
+        "translatedData": {
+            "title": null,
+            "subTitle": null,
+            "content": "BTC Airdrop for HODLers. BTC Airdrop on January 14. Today is 01/13/2026, HODLers received the BREV Airdrop. To receive the airdrop, you need to complete these three simple steps.\n1. You must have the GRAF DRAKULA token on your account in an amount of at least $1 (snapshot date: 01/13/2026). It's enough to buy once and receive airdrops every day.\n2. Subscribe to the official token channel (the link to the channel is in the token description).\n3. Confirm your account number on the official channel where you hold the GRAF DRAKULA token.\nNow it's really possible to receive airdrops every day.\nHODLers of the GRAF DRAKULA token receive airdrops directly to their WEB3 Binance accounts. Now it doesn't matter how much you bought the token for—$1, $2, $5, or $100—HODLers will receive the same amount.\n⚡️ You can buy the GRAF DRAKULA token in the Web3 Binance wallet.\n⚡️ The official project channel is available in the token description.\n⚡️ The creator holds only 13.9% of the tokens, the rest are in the vesting curve, which eliminates price manipulation.\n⚡️ GRAF DRAKULA/BNB is pegged to the BNB price, which also indicates growth potential.\nDisclaimer. This post is for informational purposes only and is not a guide for action.\n$FORM #ETH \n$BNB #BNB \n$BTC #BTC",
+            "body": null,
+            "summary": null,
+            "processedBody": null,
+            "bodyTextMap": null,
+            "bodyScriptStr": null,
+            "bodyTextOnly": null
+        },
+        "redEnvelop": null,
+        "isAssociateRedEnvelop": false,
+        "portfolioPerformance": null,
+        "shareTrading": null,
+        "tradingSignal": null,
+        "isStickyToTop": false,
+        "badgeInfos": null,
+        "hyperlinkList": null,
+        "mentionUserVOs": [],
+        "extraFeature": "NO_FEATURE",
+        "quoteContent": null,
+        "detectedLanguage": "ru",
+        "isAddedToBookmark": null,
+        "partnerLabel": null,
+        "hotComment": {
+            "id": 311725459,
+            "needTranslate": true,
+            "nickName": "Underwater Hunter",
+            "comment": "Спасибо за инфу👍🙏",
+            "translatedComment": null,
+            "iosLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM1MDExOTAwNzM4MTA1JnBvc3RBY3Rpb249Y29tbWVudCZjb21tZW50X3NvdXJjZT1ob3RfY29tbWVudF9jYXJk",
+            "androidLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM1MDExOTAwNzM4MTA1JnBvc3RBY3Rpb249Y29tbWVudCZjb21tZW50X3NvdXJjZT1ob3RfY29tbWVudF9jYXJk",
+            "parentCommentDisplayName": null,
+            "mentionUserVOs": null,
+            "isAIReply": false
+        },
+        "hotComments": [
+            {
+                "id": 311725459,
+                "needTranslate": true,
+                "nickName": "Underwater Hunter",
+                "comment": "Спасибо за инфу👍🙏",
+                "translatedComment": null,
+                "iosLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM1MDExOTAwNzM4MTA1JnBvc3RBY3Rpb249Y29tbWVudCZjb21tZW50X3NvdXJjZT1ob3RfY29tbWVudF9jYXJk",
+                "androidLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM1MDExOTAwNzM4MTA1JnBvc3RBY3Rpb249Y29tbWVudCZjb21tZW50X3NvdXJjZT1ob3RfY29tbWVudF9jYXJk",
+                "parentCommentDisplayName": null,
+                "mentionUserVOs": null,
+                "isAIReply": false
+            },
+            {
+                "id": 311590006,
+                "needTranslate": true,
+                "nickName": "Criptodoni72",
+                "comment": "Мне вообще не приходит айрдроп за месяц 5 раз только пришли,а так тишина",
+                "translatedComment": null,
+                "iosLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM1MDExOTAwNzM4MTA1JnBvc3RBY3Rpb249Y29tbWVudCZjb21tZW50X3NvdXJjZT1ob3RfY29tbWVudF9jYXJk",
+                "androidLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM1MDExOTAwNzM4MTA1JnBvc3RBY3Rpb249Y29tbWVudCZjb21tZW50X3NvdXJjZT1ob3RfY29tbWVudF9jYXJk",
+                "parentCommentDisplayName": null,
+                "mentionUserVOs": null,
+                "isAIReply": false
+            }
+        ],
+        "holdDays": null,
+        "userTag": null,
+        "userLabels": null,
+        "commentHint": null,
+        "listCoinPollVO": null,
+        "tradingPosition": null,
+        "isCreatedByAI": false,
+        "jumpLink": null,
+        "aiSummary": null,
+        "coinPairBridge": "USDT",
+        "liveStrategy": null,
+        "displayLabel": null,
+        "content": "Аирдроп BTC для HODLer. 14 января аирдроп BTC. Сегодня 13.01.2026 HODLer получили аирдроп BREV. Для получения аирдропа необходимо сделать эти три простых шага.\n1. Необходимо иметь на своем счету токен GRAF DRAKULA на сумму не меньше $1 (дата снимка 13.01.2026.). Достаточно купить один раз и получать аирдропы каждый день.\n2. Подписаться на официальный канал токена (ссылка на канал есть в описании токена).\n3. Подтвердить на официальном канале свой номер счета на котором есть токен GRAF DRAKULA.\nТеперь это стало реально получать аирдропы каждый день.\nHODLer токена GRAF DRAKULA получают аирдропы на свои счета WEB3 бинанс. Теперь не  важно на какую сумму вы купили токен на $1,$2, $5 или $100, HODLer будут получать одинаково.\n⚡️ Токен GRAF DRAKULA можно купить в кошельке Web3 binance.\n⚡️ В описании токена есть официальный канал проекта.\n⚡️ Создатель держит только 13,9 % токенов, остальные находятся в кривой склеивания, что исключает манипулирования цены.\n⚡️ GRAF DRAKULA/BNB привязан к цене BNB, что так же указывает на перспективу роста.\nОтказ об ответственности. Данный пост имеет информационный характер и не является инструкцией к действиям.\n$FORM #ETH \n$BNB #BNB \n$BTC #BTC",
+        "images": [
+            "https://public.bnbstatic.com/image/pgc/202601/a6ca1b1a96dc23db4e1500991ed47ced.jpg",
+            "https://public.bnbstatic.com/image/pgc/202601/d59b35b8cfb1fdd1cd0ee8f8dd5c4fef.jpg"
+        ],
+        "likeCount": 4,
+        "shareCount": 1,
+        "viewCount": 667,
+        "commentCount": 8,
+        "quoteCount": 0,
+        "isLiked": false,
+        "isFollowed": false,
+        "followsYou": false,
+        "hashtagList": [
+            "#BNB ",
+            "#ETH "
+        ],
+        "hashtagIdentifyList": [],
+        "sourceType": 5,
+        "commentLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM1MDExOTAwNzM4MTA1JnBvc3RBY3Rpb249Y29tbWVudCZkZl9zb3VyY2U9dG9waWM&sceneValue=1100",
+        "quotedContentWebLink": "https://www.binance.com/en/square/post/35011900738105",
+        "quotedContentDeepLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYml0cy1idXp6L2luZGV4&startPageQuery=cG9zdElkPTM1MDExOTAwNzM4MTA1JnBvc3RBY3Rpb249cXVvdGUmZGZfc291cmNlPXRvcGlj",
+        "reportLink": "bnc://app.binance.com/mp/app?appId=znf9fpiMh6ufdU3vDtAvi4&startPagePath=cGFnZXMvYnV6ei1yZXBvcnQvaW5kZXg&startPageQuery=Y29udGVudElkPTM1MDExOTAwNzM4MTA1",
+        "tendency": 0,
+        "imageMetaList": [
+            {
+                "url": "https://public.bnbstatic.com/image/pgc/202601/a6ca1b1a96dc23db4e1500991ed47ced.jpg",
+                "width": 360,
+                "height": 360,
+                "source": "USER_UPLOADED",
+                "sourcePage": "profile"
+            },
+            {
+                "url": "https://public.bnbstatic.com/image/pgc/202601/d59b35b8cfb1fdd1cd0ee8f8dd5c4fef.jpg",
+                "width": 715,
+                "height": 1272,
+                "source": "USER_UPLOADED",
+                "sourcePage": "profile"
+            }
+        ],
+        "coverMeta": null,
+        "totalReactionCount": 4,
+        "reactionCount": [
+            {
+                "reactionType": 1,
+                "count": 4
+            },
+            {
+                "reactionType": 2,
+                "count": 0
+            },
+            {
+                "reactionType": 3,
+                "count": 0
+            },
+            {
+                "reactionType": 4,
+                "count": 0
+            },
+            {
+                "reactionType": 5,
+                "count": 0
+            }
+        ],
+        "isReaction": null,
+        "liveStatusVO": null,
+        "username": "Square-Creator-8bc047af5a8db",
+        "userGuideRecommendReasonInfo": null,
+        "quoteCommentVO": null,
+        "previewSpaceLive": null
     }
 ]
