@@ -61,7 +61,8 @@ def get_new_data():
         for _ in range(2):
             try:
                 test2 = tsession.get(url)
-                new_data = json.loads(test2.content)['data']["feedData"]
+                # new_data = json.loads(test2.content)['data']["feedData"]
+                new_data = test2.json()['data']["feedData"]
                 break
             except TypeError:
                 continue
