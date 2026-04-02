@@ -4,6 +4,8 @@ import requests
 import  json
 import datetime
 
+import zstandard as zstd
+
 header_content=json.loads(os.getenv('header_secret'))
 
 def is_exist(filename):
@@ -61,8 +63,9 @@ def get_new_data():
         for _ in range(2):
             try:
                 test2 = tsession.get(url)
-                # new_data = json.loads(test2.content)['data']["feedData"]
-                new_data = test2.json()['data']["feedData"]
+                dctx = zstd.ZstdDecompressor()
+                decompressed_data = dctx.decompress(test2.content, max_output_size=1048576)
+                new_data = json.loads(decompressed_data.decode())['data']["feedData"]
                 break
             except TypeError:
                 continue
