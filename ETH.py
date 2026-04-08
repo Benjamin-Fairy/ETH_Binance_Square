@@ -63,9 +63,13 @@ def get_new_data():
         for _ in range(2):
             try:
                 test2 = tsession.get(url)
-                dctx = zstd.ZstdDecompressor()
-                decompressed_data = dctx.decompress(test2.content, max_output_size=1048576)
-                new_data = json.loads(decompressed_data.decode())['data']["feedData"]
+                try:
+                    new_data = test2.json()['data']["feedData"]
+                except requests.exceptions.JSONDecodeError:
+                    # Fuck you, bearnance
+                    dctx = zstd.ZstdDecompressor()
+                    decompressed_data = dctx.decompress(test2.content, max_output_size=1048576)
+                    new_data = json.loads(decompressed_data.decode())['data']["feedData"]
                 break
             except TypeError:
                 continue
