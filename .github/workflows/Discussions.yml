@@ -24,7 +24,6 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 1
-        filter: 'blob:none'
 
     - name: Set up Python 3.11
       uses: actions/setup-python@v5
