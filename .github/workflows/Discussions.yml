@@ -31,15 +31,24 @@ jobs:
         token: ${{ secrets.DATA_REPO_TOKEN }}
         path: data-repo  # 将数据仓库拉取到这个子文件夹中
 
+    # 2. 检出存放干净数据的新仓库 (ETH_Discussion_Data) 到一个临时子目录中
+    - name: Checkout Clean Data Repository
+      uses: actions/checkout@v4
+      with:
+        repository: Benjamin-Fairy/ETH_Discussion_Data  # ⚠️ 修改为你的用户名
+        token: ${{ secrets.DATA_REPO_TOKEN }}
+        path: clean-repo  # 放在一个专门的文件夹里备用
+
     # 3. 将生成的数据移动到数据仓库目录，并执行推送
     - name: Copy History Data
       run: |
         # 创建目标文件夹（如果不存在的话）
-        mkdir -p data-repo/data data-repo/dataid data dataid
+        mkdir -p data-repo/data data-repo/dataid data dataid data_collect clean-repo/data_collect
         
         # 将新生成的数据拷贝到数据仓库的目录中
         cp -r data-repo/data/* data/ || true
         cp -r data-repo/dataid/* dataid/ || true
+        cp -r clean-repo/data_collect/* data_collect/ || true
 
     - name: Set up Python 3.11
       uses: actions/setup-python@v5
@@ -58,6 +67,10 @@ jobs:
       run: |
         # 脚本运行后，新的数据会生成在当前目录的 data/ 和 dataid/ 中
         python ETH.py
+        
+    - name: Run Data Cleaner
+      run: |
+        python data_clean.py
 
     # 3. 将生成的数据移动到数据仓库目录，并执行推送
     - name: Move Data and Push to Data Store
@@ -80,6 +93,29 @@ jobs:
         if ! git diff --staged --quiet; then
           git commit -m "Auto-update ETH market data"
           git push
+
+    - name: Push Clean Data to Target Repo
+      run: |
+        # 确保目标仓库的存放目录存在
+        mkdir -p clean_repo/data_collect
+        
+        # 将刚刚生成的干净文件复制进目标仓库的目录
+        cp -r data_collect/* clean_repo/data_collect/ || true
+        
+        # 切换进目标仓库所在的目录进行 Git 操作
+        cd clean_repo
+        
+        git config user.name ${{ secrets.GH_NAME }}
+        git config user.email ${{ secrets.GH_EMAIL }}
+        
+        git add data_collect/
+        
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-update cleaned ETH market data"
+          git push
+        else
+          echo "No new clean data to commit."
+        fi
         else
           echo "No new data to commit."
         fi
