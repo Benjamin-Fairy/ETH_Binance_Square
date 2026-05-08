@@ -84,9 +84,9 @@ jobs:
         # 进入数据仓库目录
         cd data-repo
         
-        # 配置 Git 机器人信息
-        git config user.name ${{ secrets.GH_NAME }}
-        git config user.email ${{ secrets.GH_EMAIL }}
+        # 配置 Git 机器人信息 (建议加上双引号防止用户名中有空格报错)
+        git config user.name "${{ secrets.GH_NAME }}"
+        git config user.email "${{ secrets.GH_EMAIL }}"
         
         # 添加并提交数据
         git add data/ dataid/
@@ -95,20 +95,23 @@ jobs:
         if ! git diff --staged --quiet; then
           git commit -m "Auto-update ETH market data"
           git push
+        else
+          echo "No new data to commit."
+        fi
 
     - name: Push Clean Data to Target Repo
       run: |
         # 确保目标仓库的存放目录存在
-        mkdir -p clean_repo/data_collect
+        mkdir -p clean-repo/data_collect
         
         # 将刚刚生成的干净文件复制进目标仓库的目录
-        cp -r data_collect/* clean_repo/data_collect/ || true
+        cp -r data_collect/* clean-repo/data_collect/ || true
         
         # 切换进目标仓库所在的目录进行 Git 操作
-        cd clean_repo
+        cd clean-repo
         
-        git config user.name ${{ secrets.GH_NAME }}
-        git config user.email ${{ secrets.GH_EMAIL }}
+        git config user.name "${{ secrets.GH_NAME }}"
+        git config user.email "${{ secrets.GH_EMAIL }}"
         
         git add data_collect/
         
@@ -117,7 +120,4 @@ jobs:
           git push
         else
           echo "No new clean data to commit."
-        fi
-        else
-          echo "No new data to commit."
         fi
