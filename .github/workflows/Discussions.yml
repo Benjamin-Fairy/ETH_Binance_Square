@@ -35,7 +35,7 @@ jobs:
     - name: Copy History Data
       run: |
         # 创建目标文件夹（如果不存在的话）
-        mkdir -p data-repo/data data-repo/dataid
+        mkdir -p data-repo/data data-repo/dataid data dataid
         
         # 将新生成的数据拷贝到数据仓库的目录中
         cp -r data-repo/data/* data/ || true
