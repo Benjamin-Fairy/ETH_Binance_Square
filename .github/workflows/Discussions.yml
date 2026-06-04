@@ -32,6 +32,7 @@ jobs:
         repository: Benjamin-Fairy/ETH_Discussion_Collection  # ⚠️ 请修改为你的用户名和刚才新建的数据仓库名
         token: ${{ secrets.DATA_REPO_TOKEN }}
         path: data-repo  # 将数据仓库拉取到这个子文件夹中
+        fetch-depth: 1
 
     # 2. 检出存放干净数据的新仓库 (ETH_Discussion_Data) 到一个临时子目录中
     - name: Checkout Clean Data Repository
@@ -40,6 +41,7 @@ jobs:
         repository: Benjamin-Fairy/ETH_Discussion_Data  # ⚠️ 修改为你的用户名
         token: ${{ secrets.DATA_REPO_TOKEN }}
         path: clean-repo  # 放在一个专门的文件夹里备用
+        fetch-depth: 1
 
     # 3. 将生成的数据移动到数据仓库目录，并执行推送
     - name: Copy History Data
